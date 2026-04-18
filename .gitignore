@@ -1,0 +1,33 @@
+# Build artifacts
+target/
+*.idx
+*.bin
+*.db
+*.jsonl
+
+# Environment
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/build/
+frontend/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test files
+test_*.rs
+test_*.py
